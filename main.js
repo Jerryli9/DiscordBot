@@ -12,7 +12,7 @@ client.on("ready", () => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content== "hi"){
+    if (message.content === "hi"){
         message.reply("Hello! How may I help you?")
     }
 })
